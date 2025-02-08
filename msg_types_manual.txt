@@ -1,0 +1,18 @@
+Lista dei tipi di messaggi inviati dal client al server:
+-	“NCK_ANS”: messaggio che contiene il nickname.
+-	“THM_LST”: messaggio di richiesta al server della lista dei temi disponibili.
+-	“THM_REQ”: messaggio che contiene l’indice di un tema scelto.
+-	“CHK_REQ”: messaggio che contiene la risposta alla domanda del tema.
+-	“NXT_REQ”: messaggio di richiesta al server della prossima domanda del tema.
+-	“SHW_SCR”: messaggio di richiesta al server del numero delle sessioni di gioco presenti.
+-	“SCR_LST”: messaggio di richiesta al server della lista dei punteggi dei giocatori in tutti i temi.
+-	“END_REQ”: messaggio di richiesta al server di chiudere la sessione di gioco e disconnettersi.
+Elenco dei tipi di messaggio inviati dal server al client:
+-	“CLN_ERR”: messaggio che segnala che è stato raggiunto il limite massimo di connessioni.
+-	“NCK_REQ”: messaggio di richiesta al client di inserire il nickname.
+-	“END_CLN”: messaggio di richiesta al client di chiudere la connessione.
+-	“THM_NMB”: messaggio che contiene il numero dei temi disponibili nel server.
+-	“THM_LST”: messaggio che contiene la lista dei temi disponibili nel server.
+-	“QST_REQ”: messaggio che contiene la prossima domanda del tema.
+-	“THM_CMP”: messaggio che segnala al client che ha già completato il tema.
+-	“CHK_ANS”: messaggio che contiene l’esito della risposta alla domanda del tema.

@@ -1,0 +1,8 @@
+1:Gino:6:1
+2:Dino:6:5
+1:Dino:6:3
+1:Nino:6:4
+2:Gino:6:5
+2:Pino:3:2
+2:Zio Paperone:6:4
+1:Pippo:2:1
